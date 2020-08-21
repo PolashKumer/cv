@@ -1,0 +1,327 @@
+body{
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+}
+
+/*---------------- PART ONE--------------*/
+.photo .container{
+    padding: 5vw 10vw;
+    background: rgb(29, 29, 29);
+    color: rgb(255, 230, 1);
+    /*
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    */
+    width: 100%;
+}
+.top{
+    display:;
+   
+}
+.top img{
+    
+    width: 12vw;
+    border: 3px solid rgb(255, 230, 1);
+    border-radius: 50%;
+}
+.contact{
+    
+}
+.contact .row p span{
+   font-family: lato;
+}
+.name-text h1{
+    font-size: 2.2vw;
+    text-transform: uppercase;
+    margin-top: 2vw;
+}
+.name-text h2{
+    font-size: 1.3vw;
+    margin-bottom: 2vw;
+}
+
+/*---------------- PART TWO--------------*/
+.contact{
+    text-align: center;
+    padding: 2vw;
+    width: 100%;
+    color: black;
+    border: 2px solid rgb(255, 230, 1);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+}
+.contact .col-4{
+    display: grid;
+    color: rgb(255, 251, 0);
+}
+.contact i{
+    font-size: 2.2vw;
+    margin-bottom: 10px;
+}
+.phone{
+    font-family: lato;
+}
+
+/*---------------- PART THREE--------------*/
+.skills-education .container{
+    background-color: #0c0c0cda;
+    padding-top: 8VW;
+    padding-bottom: 3vw;
+}
+.skills-education{
+    
+    color: rgb(36, 36, 36);
+}
+.skill{
+    padding-left: 6.9vw;
+}
+.skill-text{
+    margin-left: -2vw;
+    margin-bottom: 5VW;
+}
+.skill p{
+    
+    margin-left: -2vw;
+    text-indent: 2vw;
+    
+    color: rgb(229, 255, 0);
+    font-weight: 550;
+    font-size: 1.5vw;
+    border-radius: 15px;
+}
+.skill i{
+    color: rgb(255, 230, 1);
+    margin-bottom: 3.3vw;
+    
+}
+.education-text{
+    text-align: left;
+    
+}
+.fa-user-graduate{
+    font-size: 2.6vw !important;
+}
+.education-text h3{
+    margin-left: 6vw;
+    margin-bottom: 4vw;
+}
+.fa-briefcase{
+    color: rgb(36, 36, 36) !important;
+    font-size: 2.6vw;
+}
+.skills-education h3{
+    border-radius: 30px;
+    font-size: 2.6vw;
+    background-color: rgb(255, 230, 1);
+    height: 3.4vw;
+    padding: .2vw 0vw 0vw 1vw;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.edu{
+    margin: 3vw 8vw;
+    color: rgb(238, 255, 0);
+}
+.edu h1{
+    color: rgb(251, 255, 0);
+    font-size: 2.3vw;
+}
+.edu h2{
+    font-size: 1.4vw;
+}
+.edu p{
+    font-size: 1.2vw;
+    color: rgba(251, 255, 25, 0.733);
+}
+.edu i{
+    font-size: 2vw;
+    color: rgb(251, 255, 0);
+}
+.education-text H3,
+.hobby h3{
+    margin-right: 4VW;
+}
+/*---------------- PART FOUR--------------*/
+.hobby .container .row{
+    text-align: left;
+    margin-left: 6vw;
+}
+.hobby{
+    margin-top: -7vw;
+}
+.hobby .row{
+    display: grid;
+    margin-left: 5vw !important;
+}
+.hobby  h3{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    text-align: left;
+}
+.hobby .row .hobbies p{
+    font-size: 1.7vw;
+    margin-right: 2vw;
+}
+.hobbies{
+    display: inline-flex;
+}
+.hobbies p{
+    border: 2px solid rgb(251, 255, 1);
+    width: 9vw;
+    color: rgb(255, 251, 0);
+    border-radius: 20px;
+    padding: 0px 0px;
+}
+.hobbies i{
+    color: #000;
+    background-color: rgb(247, 222, 0);
+    padding: .4vw;
+    border-radius: 30px;
+    margin-left: 0vw;
+    box-shadow: 4px 0px  5px rgba(17, 17, 17, 0.726);
+}
+.fa-code{
+    padding: .4vw .3vw !important;
+}
+.hobby .container{
+    background-color: rgba(7, 7, 7, 0);
+}
+/*---------------- PART FIVE--------------*/
+.fa-briefcase,
+.fa-user-graduate,
+.fa-heart{
+    margin-left: 1.2vw;
+}
+.bottom{
+    height: 4vw;
+    background-color: rgb(37, 37, 37);
+}
+
+/*---------------- PART SIX--------------*/
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    body{
+        background-color: rgb(37, 37, 37);
+        text-align: center !important;
+    }
+    .container{
+        width: 80vw !important;
+    }
+    .top img {
+        margin: 1vw 0vw;
+    }
+    .photo .container {
+        padding: 0vw;
+        padding-bottom: 3vw;
+    }
+    .skills-education .container .row{
+        display: grid;
+        
+    }
+    .skills-education .container .row .col-4{
+        
+        width: 140vw !important;
+    }
+    .contact{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5vw;
+    }
+    .contact {
+        font-size: 2vw;
+        padding: 3vw 1vw !important;
+    }
+    .skills-education .col-4,
+    .skills-education .col-8{
+        margin-right: -20vw !important;
+    }
+    .name-text h1{
+        font-size: 4.5vw;
+    }
+    .name-text h2{
+        font-size: 3vw;
+    }
+
+    *{
+        
+        text-align: center !important;
+    }
+    .skills-education .col-4{
+        margin-left: 13vw;
+    }
+    .skill h3{
+        font-size: 4.5vw;
+        height: 6vw;
+    }
+    .skill p{
+        font-size: 3.5vw;
+    }
+    .skill i{
+        font-size: 3vw;
+    }
+    .education-text h3 {
+        margin-top: 6vw;
+        font-size: 4.5vw;
+        height: 6vw;
+        margin-right: 22vw;
+    }
+    .edu{
+        margin-right: 25vw;
+    }
+    .edu i{
+        margin-top: 3vw;
+        font-size: 4vw;
+    }
+    .edu h1{
+        font-size: 4vw;
+    }
+    .edu h2{
+        font-size: 3vw;
+    }
+    .edu p{
+        font-size: 2vw;
+    }
+    .hobby h3{
+        font-size: 4.5vw;
+    height: 6vw;
+    margin-right: 22vw;
+    margin-left: -6vw;
+    width: 56vw;
+    }
+    .hobbies p{
+        font-size: 3vw !important;
+        padding: 1vw 0vw 1vw 1vw;
+        width: 12vw;
+        text-indent: 0vw;
+    }
+    .hobbies p i{
+        margin: 0vw 0vw;
+        
+    }
+    .hobbies{
+        margin-left: -6vw;
+    }
+}
+
+
+/*---------------- PART SEVEN--------------*/
+
+
+
+/*---------------- PART EIGHT--------------*/
+
+
+
+/*---------------- PART NINE--------------*/
+
+
+
+
+/*---------------- PART TEN--------------*/
